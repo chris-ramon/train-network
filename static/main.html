@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="TrainNetwork">
+<head>
+  <title>Train Network</title>
+  <style>
+    #map {
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div ng-view></div>
+  <script id="stations.html" type="text/ng-template">
+    <div id="map"></div>
+  </script>
+  <script src="/static/angular.js"></script>
+  <script src="/static/angular-route.js"></script>
+  <script src="/static/underscore.js"></script>
+  <script src="/static/jquery.js"></script>
+  <script src="/static/googlemaps.js"></script>
+  <script src="/static/gmaps.js"></script>
+  <script src="/static/app.js"></script>
+  <script src="/static/config.js"></script>
+  <script src="/static/run.js"></script>
+  <script src="/static/StationService.js"></script>
+  <script src="/static/StationCtrl.js"></script>
+</body>
+</html>
